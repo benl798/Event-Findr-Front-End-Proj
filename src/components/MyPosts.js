@@ -1,10 +1,12 @@
 import React from 'react'
 import axios from 'axios'
+import NewPost from './NewPost'
 
 class MyPosts extends React.Component{
 
   state = {
-    data: []
+    data: [],
+    createNewPost: false
   }
 
   componentDidMount(){
@@ -17,11 +19,22 @@ class MyPosts extends React.Component{
     .catch(err => console.log(err));
   }
 
+  showPostForm = () => {
+    this.setState({createNewPost: true})
+  }
+
+
+
   render(){
     return(
       <div>
+        {this.state.createNewPost ?
+          <NewPost />
+          :
+          <button onClick={this.showPostForm}>New Post</button>
+        }
         {
-          this.state.data.map(post => (
+          this.state.data.reverse().map(post => (
             <div>
               <h3>{post.title}</h3>
               <h5>{post.description}</h5>

@@ -35,7 +35,7 @@ class LoginForm extends React.Component{
             id="email"
             type="email"
           />
-          <br /><br />
+          <br />
           <label htmlFor="password">Password:</label>
           <br />
           <input
@@ -45,7 +45,7 @@ class LoginForm extends React.Component{
             type="password"
           />
           <br />
-          <button onClick={this.login}>Login</button>
+          <button>Login</button>
         </form>
       </div>
     );
