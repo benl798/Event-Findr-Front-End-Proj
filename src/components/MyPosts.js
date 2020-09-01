@@ -8,7 +8,9 @@ class MyPosts extends React.Component{
   }
 
   componentDidMount(){
-    axios.get('http://localhost:3000/posts/16/show_my_posts.json')
+    let token = "Bearer " + localStorage.getItem('jwt')
+    console.log(token);
+    axios.get('http://localhost:3000/my_posts.json')
     .then(axiosReturn => {
       this.setState({data: axiosReturn.data})
     })
