@@ -1,5 +1,6 @@
 import React from 'react'
 import axios from 'axios'
+import {Image, Video, Transformation, CloudinaryContext} from 'cloudinary-react';
 import NewPost from './NewPost'
 
 class MyPosts extends React.Component{
@@ -38,7 +39,12 @@ class MyPosts extends React.Component{
             <div>
               <h3>{post.title}</h3>
               <h5>{post.description}</h5>
-              <img src={post.image} alt={post.title}/>
+                <Image
+                  cloudName={process.env.REACT_APP_CLOUDINARY_CLOUD_NAME}
+                  publicId={post.image}
+                  width="250"
+                  crop="scale"
+                  />
             </div>
           ))
         }

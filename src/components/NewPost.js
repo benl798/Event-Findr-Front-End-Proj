@@ -44,9 +44,7 @@ class NewPost extends React.Component{
   checkUploadResult = (ev) => {
     if(ev.event === 'success'){
       const updatedPost = this.state.newPost
-      let image = ev.info.secure_url
-      image = image.split('upload').join('upload/w_200,c_scale')
-      updatedPost.image = image
+      updatedPost.image = ev.info.public_id
       this.setState({newPost: updatedPost})
     }
   }

@@ -1,5 +1,8 @@
 import React from 'react'
 import axios from 'axios'
+import {Image, Video, Transformation, CloudinaryContext} from 'cloudinary-react';
+import {Route, Link, HashRouter as Router} from 'react-router-dom';
+
 
 import NewPost from './NewPost'
 
@@ -34,9 +37,14 @@ class Feed extends React.Component{
         {
           this.state.data.reverse().map(post => (
             <div>
-              <h3>{post.title}</h3>
+              <Link to={`/post/${post.id}`}>{post.title}</Link>
               <h5>{post.description}</h5>
-              <img src={post.image} alt={post.title}/>
+              <Image
+                cloudName={process.env.REACT_APP_CLOUDINARY_CLOUD_NAME}
+                publicId={post.image}
+                width="250"
+                crop="scale"
+                />
             </div>
           ))
         }

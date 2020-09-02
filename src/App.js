@@ -6,6 +6,7 @@ import {Route, Link, HashRouter as Router} from 'react-router-dom';
 import MyPosts from './components/MyPosts'
 import Feed from './components/Feed'
 import LoginPage from './components/LoginPage'
+import ShowPost from './components/ShowPost'
 
 class App extends React.Component{
 
@@ -15,8 +16,6 @@ class App extends React.Component{
   }
 
   componentDidMount(){
-    console.log('API = ', process.env.REACT_APP_CLOUDINARY_KEY);
-    console.log('name = ', process.env.REACT_APP_CLOUDINARY_CLOUD_NAME);
 
     function getLocation() {
       if (navigator.geolocation) {
@@ -70,6 +69,7 @@ class App extends React.Component{
 
             <Route exact path='/' component={Feed}/>
             <Route exact path='/myPosts' component={MyPosts}/>
+            <Route exact path='/post/:id' component={ShowPost}/>
             <Route exact path='/login' render={() => <LoginPage handleLogin={this.handleLogin} />}/>
 
           </Router>
