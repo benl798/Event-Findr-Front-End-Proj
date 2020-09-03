@@ -7,7 +7,7 @@ import GoogleMapReact from 'google-map-react';
 
 
 
-const BASE_URL = 'http://localhost:3000'
+const BASE_URL = 'https://chris-ben-group-project.herokuapp.com'
 const MyMapMarker = ({ text }) => <div className='myMarker'>{text}</div>;
 const EvMapMarker = ({ id }) => <Link to={`/post/${id}`}><div className='evMarker'></div></Link>
 
@@ -69,7 +69,7 @@ class Feed extends React.Component{
           <section className="section section-light">
             <h2 className="section section-light">Our Website</h2>
             <p className="section section-light">
-              This is a website built to let you see what's going on around near you. A platform to see cool events that are happening near you and give you the opportunity to follow the poster and keep up to date with their events and happenings. 
+              This is a website built to let you see what's going on around near you. A platform to see cool events that are happening near you and give you the opportunity to follow the poster and keep up to date with their events and happenings.
             </p>
           </section>
 
@@ -131,7 +131,7 @@ class Feed extends React.Component{
                       <Link to={`/post/${post.id}`}>
                         <Image
                           className='card-image'
-                          cloudName={process.env.REACT_APP_CLOUDINARY_CLOUD_NAME}
+                          cloudName='dvmqosqwr'
                           publicId={post.image}
                           width="500"
                           crop="scale"

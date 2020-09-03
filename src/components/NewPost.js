@@ -16,7 +16,7 @@ class NewPost extends React.Component{
 
   componentDidMount(){
     this.setState({widget: window.cloudinary.createUploadWidget({
-      cloudName: process.env.REACT_APP_CLOUDINARY_CLOUD_NAME,
+      cloudName: 'dvmqosqwr',
       uploadPreset: 'k1jbpdku'},
       (error, result) => {this.checkUploadResult(result)})})
   }
@@ -85,7 +85,7 @@ class NewPost extends React.Component{
           <div className='uploadImage' onClick={this.showWidget}>Upload Photo</div>
           <Image
             className='previewImg'
-            cloudName={process.env.REACT_APP_CLOUDINARY_CLOUD_NAME}
+            cloudName='dvmqosqwr'
             publicId={this.state.newPost.image}
             width="200"
             crop="scale"

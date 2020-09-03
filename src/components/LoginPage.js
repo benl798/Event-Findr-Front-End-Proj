@@ -6,7 +6,7 @@ import LoginForm from './LoginForm'
 import SignupForm from './SignupForm'
 
 
-const BASE_URL = 'http://localhost:3000'
+const BASE_URL = 'https://chris-ben-group-project.herokuapp.com'
 
 
 class LoginPage extends React.Component{

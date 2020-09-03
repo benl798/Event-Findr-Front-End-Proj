@@ -7,7 +7,7 @@ import GoogleMapReact from 'google-map-react';
 import '../App.css'
 
 const MapMarker = ({ text }) => <div id='mapMarker'>{text}</div>;
-const BASE_URL = 'http://localhost:3000'
+const BASE_URL = 'https://chris-ben-group-project.herokuapp.com'
 const MAP_URL = 'https://www.google.com/maps/dir/?api=1&destination='
 
 class ShowPost extends React.Component{
@@ -186,7 +186,7 @@ class ShowPost extends React.Component{
           <span className="name">{this.state.postOwner.name}</span>
           <Image
             className='image'
-            cloudName={process.env.REACT_APP_CLOUDINARY_CLOUD_NAME}
+            cloudName='dvmqosqwr'
             publicId={postData.image}
             width="700"
             crop="scale"
