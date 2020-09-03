@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.header-footer-css * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #c2cad0;
+  text-decoration: none;
+  line-height: 1.8em;
+  font-weight: 400;
+  font-family: 'Bebas Neue', cursive;
+}
+
+/* Nav bar  */
+
+.header-footer-css li, .header-footer-css a, .header-footer-css button {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 25px;
+  color: #edf0f1;
+  text-decoration: none;
+  background: none;
+}
+
+.header-footer-css header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 10%;
+  background-color: rgba(251,196,191,0.7);
+}
+
+.header-footer-css .title {
+  cursor: default;
+  margin-right: auto;
+  font-size: 30px;
+}
+
+.header-footer-css .title2 {
+  cursor: default;
+  margin-right: auto;
+  font-size: 30px;
+}
+
+.header-footer-css .nav_links {
+  list-style: none;
+  background-color: #FCD6D2;
+}
+
+.header-footer-css .nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+  background: none;
+}
+
+.header-footer-css .nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.header-footer-css .nav_links li a:hover {
+  color: rgba(231,113,125,1);
+}
+
+.header-footer-css button {
+  margin-left: 10px;
+  padding: 9px 25px;
+  background-color: rgba(231,113,125,1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.header-footer-css button:hover {
+  background-color: rgba(231,113,125,0.7);
+}
+
+/* Footer */
+
+.header-footer-css footer {
+  width: 100vw;
+  display: flex;
+  overflow: hidden;
+  padding: 10px 10%;
+  box-sizing: border-box;
+  background-color: rgba(251,196,191,1);
+  position: fixed;
+  bottom: 0;
+}
+
+.header-footer-css .fa {
+  color: #edf0f1;
+  font-size: 35px;
+  background-color: rgba(251,196,191,0.7);
+  transition: all 0.3s ease 0s;
+}
+
+.header-footer-css .fa:hover {
+  color: rgba(231,113,125,1);;
+}
+
+.header-footer-css .icons {
+  background-color: #FBC4BF;
+}
+
+.header-footer-css .fill {
+  background-color: rgba(251,196,191,0.7);
+}
+
+.header-footer-css @media(max-width:568px){
+  .pimg1, .pimg2, .pimg3{
+    background-attachment: scroll;
+  }
+}

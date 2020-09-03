@@ -1,5 +1,8 @@
 import React from 'react'
 import axios from 'axios'
+import {Image, Video, Transformation, CloudinaryContext} from 'cloudinary-react';
+
+
 
 class NewPost extends React.Component{
 
@@ -19,15 +22,17 @@ class NewPost extends React.Component{
   }
 
   handleSubmit = (ev) => {
+    this.props.showHidePostForm(false);
     axios.post('http://localhost:3000/posts', {
       title: this.state.newPost.title,
       description: this.state.newPost.description,
       image: this.state.newPost.image
     })
-    .then(res => console.log(res))
+    .then()
     .catch(err => console.warn(err))
     ev.preventDefault();
   }
+
 
   handleInput = (ev) => {
     const updatedPost = this.state.newPost
@@ -53,35 +58,40 @@ class NewPost extends React.Component{
     this.state.widget.open();
   }
 
+  closePost = () => {
+    this.props.showHidePostForm(false);
+  }
+
   render(){
 
-
-
     return(
-      <div>
+      <div className='newpost-css'>
         <form onSubmit={this.handleSubmit}>
-          <label htmlFor="title">Title: </label>
-          <br />
+          <h3>New Post</h3>
+          <label htmlFor="title">Title</label>
           <input
             onChange={this.handleInput}
             name="title"
             id="title"
             type="text"
           />
-          <br />
-          <label htmlFor="description">Description: </label>
-          <br />
+          <label htmlFor="description">Description</label>
           <textarea
             onChange={this.handleInput}
             name="description"
             id="description"
             type="textarea"
           ></textarea>
-          <br />
-
-          <div onClick={this.showWidget}>Upload Photo</div>
-          <br />
+          <div className='uploadImage' onClick={this.showWidget}>Upload Photo</div>
+          <Image
+            className='previewImg'
+            cloudName={process.env.REACT_APP_CLOUDINARY_CLOUD_NAME}
+            publicId={this.state.newPost.image}
+            width="200"
+            crop="scale"
+            />
           <button>Share</button>
+          <p className='closeButton' onClick={this.closePost}>X</p>
         </form>
       </div>
     );

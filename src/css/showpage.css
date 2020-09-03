@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.post-container-css * {
+  margin: 10;
+  padding: 0;
+  font-family: 'Bebas Neue', cursive;
+  background-color: #282e34;
+}
+
+.post-container-css .image {
+  max-width: 700px;
+  max-height: 400px;
+  object-fit: contain;
+  position: relative;
+  border: 6px solid rgba(251,196,191,1);
+  margin-left: 20px;
+  top: 60px;
+}
+
+.post-container-css .post {
+  border: 10px solid #282e34;
+  background-color: #282e34;
+  height: 100vh;
+}
+
+
+
+
+.post-container-css button {
+  margin-left: 10px;
+  padding: 9px 25px;
+  background-color: rgba(231,113,125,1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  font-size: 25px;
+  color: #edf0f1;
+}
+
+.post-container-css .buttonBox{
+  position: absolute;
+  top: 600px;
+}
+
+.post-container-css button:hover {
+  background-color: rgba(231,113,125,0.7);
+}
+
+.post-container-css .far {
+  color: #edf0f1;
+  font-size: 35px;
+  transition: all 0.3s ease 0s;
+  background-color: transparent;
+}
+
+.post-container-css .far:hover {
+  color: rgba(231,113,125,1);;
+}
+
+.post-container-css .fa-thumbs-up {
+  position: absolute;
+  left: 50px;
+  top: 600px;
+}
+
+.post-container-css .fa-directions {
+  position: absolute;
+  left: 1330px;
+  top: 236px;
+  color: #edf0f1;
+  font-size: 35px;
+  transition: all 0.3s ease 0s;
+  background-color: transparent;
+}
+
+.post-container-css .fa-directions:hover {
+  color: rgba(231,113,125,1);;
+}
+
+.post-container-css .fa-thumbs-down {
+  position: absolute;
+  left: 105px;
+  top: 600px;
+}
+
+.post-container-css .follow {
+  position: absolute;
+  left: 565px;
+  top: 115px;
+  text-align: right;
+}
+
+.post-container-css .comment {
+  position: absolute;
+  left: 1230px;
+  top: 420px;
+}
+
+
+.post-container-css .make-comment {
+  width: 420px;
+  padding: 7px 0;
+  margin: 5px 0;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #edf0f1;
+  outline: none;
+  background: transparent;
+  font-size: 25px;
+  color: rgba(251,196,191,1);
+  position: absolute;
+  left: 785px;
+  top: 415px;
+}
+
+.post-container-css .title {
+  font-size: 55px;
+  background: transparent;
+  color: #edf0f1;
+  position: absolute;
+  top: 160px;
+  left: 785px;
+}
+
+.post-container-css .name {
+  background: transparent;
+  color: #edf0f1;
+  font-size: 35px;
+  position: absolute;
+  left: 50px;
+  top: 125px;
+}
+
+.post-container-css .descript {
+  background: transparent;
+  color: #edf0f1;
+  font-size: 20px;
+  position: absolute;
+  left: 785px;
+  top: 290px;
+  margin-right: 50px;
+}
+
+.post-container-css .comments-container {
+  background: transparent;
+  color: #edf0f1;
+  font-size: 20px;
+  position: absolute;
+  left: 785px;
+  top: 510px;
+}
+
+.post-container-css .likes {
+    background: transparent;
+    color: #edf0f1;
+    font-size: 20px;
+    position: absolute;
+    left: 580px;
+    top: 610px;
+}
+
+.post-container-css .dislikes {
+    background: transparent;
+    color: #edf0f1;
+    font-size: 20px;
+    position: absolute;
+    left: 650px;
+    top: 610px;
+}
+
+.post-container-css .delete {
+  background: transparent;
+  color: #edf0f1;
+  font-size: 15px;
+  cursor: pointer;
+  position: absolute;
+  left: 1265px;
+  top: 196px;
+}
+
+.post-container-css .directions {
+  background: transparent;
+  color: #edf0f1;
+  font-size: 25px;
+  position: absolute;
+  left: 1145px;
+  top: 241px;
+}
+
+
+
+.post-container-css .location {
+  color: #edf0f1;
+  font-size: 30px;
+  position: absolute;
+  left: 785px;
+  top: 235px;
+  background: transparent;
+}
+
+
+
+/* #bigmap {
+  width: 60vw;
+  height: 35vw;
+  background-color: black;
+  margin-left: 19vw;
+  position: absolute;
+  top: 175px;
+} */

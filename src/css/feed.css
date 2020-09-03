@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.main-page-css * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  line-height: 1.8em;
+  font-weight: 400;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.main-page-css .pimg1, .main-page-css .pimg2, .main-page-css .pimg3 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+}
+
+/* Parallax scrolling */
+
+.main-page-css .pimg1 {
+  background-image:url('../images/image1.jpg');
+  min-height: 600px;
+  /* max-height: 600px; */
+}
+
+.main-page-css .pimg2 {
+  background-image:url('../images/image6.jpg');
+  min-height: 900px;
+  /* max-height: 900px; */
+}
+
+.main-page-css .pimg3 {
+  background-image:url('../images/image7.jpg');
+}
+
+.main-page-css .section {
+  text-align: center;
+  padding: 10px 80px;
+
+}
+
+.main-page-css .section-light {
+  background-color: #f4f4f4;
+  color: #666;
+}
+
+.main-page-css .section-dark {
+  background-color: #282e34;
+  color: #ddd;
+}
+
+.main-page-css .section-dark h2 {
+  font-size: 35px;
+}
+
+.main-page-css .search {
+  margin: 12px;
+  color: white;
+  margin-left: 10px;
+  padding: 9px 25px;
+  background-color: rgba(231,113,125,1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: all 0.3s ease 0s;
+}
+
+.main-page-css button:hover {
+  background-color: rgba(231,113,125,0.7);
+}
+
+.main-page-css .ptext {
+  position: relative;
+  width: 100%;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  background-color: #ff000000;
+}
+
+.main-page-css .border-welcome {
+  background-color: transparent;
+  color: rgba(231,113,125,1);
+  font-size: 90px;
+  width: 100%;
+  padding-top: 130px;
+  position: relative;
+  text-align: center;
+}
+
+.main-page-css .welcome-message {
+  background-color: transparent;
+  color: rgba(231,113,125,1);
+  font-size: 55px;
+  position: relative;
+  text-align: center;
+}
+
+.main-page-css .bigmap {
+  width: 80vw;
+  height: 800px;
+  margin-left: 10vw;
+  position: relative;
+  padding-bottom: 80px;
+}
+
+.main-page-css .events {
+  background-color: transparent;
+  color: rgba(231,113,125,1);
+  font-size: 90px;
+  text-align: center;
+  top: 20px;
+  position: relative;
+}
+
+.myMarker {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50%;
+  background-color: rgba(43,225,252, 0.5);
+  position: relative;
+  top: -25px;
+  left: -25px;
+  border: 1px solid black;
+}
+
+.evMarker {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  background-color: rgba(255, 0, 0, 0.5);
+  position: relative;
+  top: -20px;
+  left: -20px;
+  border: 1px solid black;
+}
