@@ -61,7 +61,7 @@ class App extends React.Component{
           this.state.currentUser !== undefined && (
             <div className='header-footer-css'>
               <header>
-                <a className="title">Our Website Name</a>
+                <a className="title">Event Findr | Welcome {this.state.currentUser.name}</a>
                 <nav>
                   <ul className="nav_links">
                     <li><Link to='/'>Home</Link></li>

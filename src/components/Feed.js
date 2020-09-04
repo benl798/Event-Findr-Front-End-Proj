@@ -67,7 +67,7 @@ class Feed extends React.Component{
           </div>
 
           <section className="section section-light">
-            <h2 className="section section-light">Our Website</h2>
+            <h2 className="section section-light">Event Findr</h2>
             <p className="section section-light">
               This is a website built to let you see what's going on around near you. A platform to see cool events that are happening near you and give you the opportunity to follow the poster and keep up to date with their events and happenings.
             </p>

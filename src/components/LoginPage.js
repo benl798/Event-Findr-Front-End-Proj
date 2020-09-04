@@ -103,7 +103,7 @@ class LoginPage extends React.Component{
       <div className='login-page-css'>
         <div className="hero">
           <div className="form-box">
-            <h2 className="title">Our Website Name</h2>
+            <h2 className="title">Event Findr</h2>
             <div className="button-box">
               <div id="btn"></div>
               <button className="toggle-btn" onClick={() => this.toggleLoginRegister('l')}>Log In</button>
