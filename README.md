@@ -16,10 +16,12 @@ The backend to this website can be found [here](https://github.com/Chris-Stevens
 ### Feed
 A scrolling paralax page with the below features:
 * Interactive Google Map showing your location AND the location of events within 50km.
+![](https://i.imgur.com/PQCuPlE.png)
 * Cards that show events and can be organised to show...
 1. All events
 2. Only events within 50km
 3. Only events created by users that I follow
+![](https://i.imgur.com/T74R6DT.png)
 
 ### Show
 Individual show page for each post with the following information:
