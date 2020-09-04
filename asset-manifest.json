@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.1e6edd79.chunk.css",
-    "main.js": "/static/js/main.98000913.chunk.js",
-    "main.js.map": "/static/js/main.98000913.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.d43be887.js",
-    "runtime-main.js.map": "/static/js/runtime-main.d43be887.js.map",
-    "static/js/2.7bec7f93.chunk.js": "/static/js/2.7bec7f93.chunk.js",
-    "static/js/2.7bec7f93.chunk.js.map": "/static/js/2.7bec7f93.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.f49575d70debc91642387e6ed202f3a9.js": "/precache-manifest.f49575d70debc91642387e6ed202f3a9.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.1e6edd79.chunk.css.map": "/static/css/main.1e6edd79.chunk.css.map",
-    "static/js/2.7bec7f93.chunk.js.LICENSE.txt": "/static/js/2.7bec7f93.chunk.js.LICENSE.txt",
-    "static/media/feed.css": "/static/media/image7.babf0d6b.jpg",
-    "static/media/login.css": "/static/media/login_background.56997854.jpg"
+    "main.css": "/Group-Proj-React-Frontend/static/css/main.7908cb6d.chunk.css",
+    "main.js": "/Group-Proj-React-Frontend/static/js/main.8f633038.chunk.js",
+    "main.js.map": "/Group-Proj-React-Frontend/static/js/main.8f633038.chunk.js.map",
+    "runtime-main.js": "/Group-Proj-React-Frontend/static/js/runtime-main.d9cdfb55.js",
+    "runtime-main.js.map": "/Group-Proj-React-Frontend/static/js/runtime-main.d9cdfb55.js.map",
+    "static/js/2.713d3844.chunk.js": "/Group-Proj-React-Frontend/static/js/2.713d3844.chunk.js",
+    "static/js/2.713d3844.chunk.js.map": "/Group-Proj-React-Frontend/static/js/2.713d3844.chunk.js.map",
+    "index.html": "/Group-Proj-React-Frontend/index.html",
+    "precache-manifest.04a134b450ffb389edaa13cd09ed614a.js": "/Group-Proj-React-Frontend/precache-manifest.04a134b450ffb389edaa13cd09ed614a.js",
+    "service-worker.js": "/Group-Proj-React-Frontend/service-worker.js",
+    "static/css/main.7908cb6d.chunk.css.map": "/Group-Proj-React-Frontend/static/css/main.7908cb6d.chunk.css.map",
+    "static/js/2.713d3844.chunk.js.LICENSE.txt": "/Group-Proj-React-Frontend/static/js/2.713d3844.chunk.js.LICENSE.txt",
+    "static/media/feed.css": "/Group-Proj-React-Frontend/static/media/image7.babf0d6b.jpg",
+    "static/media/login.css": "/Group-Proj-React-Frontend/static/media/login_background.56997854.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d43be887.js",
-    "static/js/2.7bec7f93.chunk.js",
-    "static/css/main.1e6edd79.chunk.css",
-    "static/js/main.98000913.chunk.js"
+    "static/js/runtime-main.d9cdfb55.js",
+    "static/js/2.713d3844.chunk.js",
+    "static/css/main.7908cb6d.chunk.css",
+    "static/js/main.8f633038.chunk.js"
   ]
 }
