@@ -6,7 +6,7 @@ Event Findr is a website created by Ben Luck and Chris Stevenson as part of SEI3
 
 The website is hosted on github pages [here](https://chris-stevenson-git.github.io/Group-Proj-React-Frontend/#/login)
 
-The backend to this website can be found [here](https://github.com/Chris-Stevenson-Git/Group-Proj-Backend)
+The backend to this website can be found [here](https://github.com/benl798/Event-Findr-Back-End-Proj/blob/master/README.md)
 
 ## Features
 ### Login
